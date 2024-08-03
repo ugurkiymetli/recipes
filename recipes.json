@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Recipe 1",
+    "category": "breakfast",
+    "ingredients": [
+      { "item": "item1", "quantity": 1, "unit": "gr" },
+      { "item": "item2", "quantity": 2, "unit": "tbs" },
+      { "item": "item3", "quantity": 3, "unit": "kg" }
+    ]
+  },
+  {
+    "name": "Recipe 2",
+    "category": "lunch",
+    "ingredients": [
+      { "item": "item1", "quantity": 1, "unit": "gr" },
+      { "item": "item2", "quantity": 2, "unit": "tbs" },
+      { "item": "item3", "quantity": 3, "unit": "kg" }
+    ]
+  },
+  {
+    "name": "Recipe 3",
+    "category": "dinner",
+    "ingredients": [
+      { "item": "item1", "quantity": 1, "unit": "gr" },
+      { "item": "item2", "quantity": 2, "unit": "tbs" },
+      { "item": "item3", "quantity": 3, "unit": "kg" }
+    ]
+  },
+  {
+    "name": "Recipe 5",
+    "category": "dinner",
+    "ingredients": [
+      { "item": "item1", "quantity": 1, "unit": "gr" },
+      { "item": "item2", "quantity": 2, "unit": "tbs" },
+      { "item": "item3", "quantity": 3, "unit": "kg" }
+    ]
+  },
+  {
+    "name": "Recipe 4",
+    "category": "snack",
+    "ingredients": [
+      { "item": "item1", "quantity": 1, "unit": "gr" },
+      { "item": "item2", "quantity": 2, "unit": "tbs" },
+      { "item": "item3", "quantity": 3, "unit": "kg" }
+    ]
+  }
+]
