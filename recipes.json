@@ -1,47 +1,222 @@
 [
   {
-    "name": "Recipe 1",
-    "category": "breakfast",
+    "name": "Menemen",
+    "category": "kahvaltı",
     "ingredients": [
-      { "item": "item1", "quantity": 1, "unit": "gr" },
-      { "item": "item2", "quantity": 2, "unit": "tbs" },
-      { "item": "item3", "quantity": 3, "unit": "kg" }
-    ]
+      {
+        "item": "domates",
+        "quantity": 2,
+        "unit": "adet",
+        "preparation": "doğranmış"
+      },
+      {
+        "item": "yeşil biber",
+        "quantity": 2,
+        "unit": "adet",
+        "preparation": "doğranmış"
+      },
+      { "item": "yumurta", "quantity": 3, "unit": "adet" },
+      {
+        "item": "soğan",
+        "quantity": 1,
+        "unit": "adet",
+        "preparation": "ince doğranmış"
+      },
+      { "item": "zeytinyağı", "quantity": 2, "unit": "yemek kaşığı" },
+      { "item": "tuz", "quantity": "isteğe bağlı", "unit": "" },
+      { "item": "karabiber", "quantity": "isteğe bağlı", "unit": "" }
+    ],
+    "preparation": "Zeytinyağını bir tavada ısıtın ve soğanı şeffaflaşana kadar soteleyin. Biberleri ekleyin ve birkaç dakika pişirin. Domatesleri ekleyin ve yumuşayana kadar pişirin. Yumurtaları çırpın ve sebzelerin üzerine dökün, yumurtalar pişene kadar nazikçe karıştırın."
   },
   {
-    "name": "Recipe 2",
-    "category": "lunch",
+    "name": "Yulaf Ezmesi (Oatmeal)",
+    "category": "kahvaltı",
     "ingredients": [
-      { "item": "item1", "quantity": 1, "unit": "gr" },
-      { "item": "item2", "quantity": 2, "unit": "tbs" },
-      { "item": "item3", "quantity": 3, "unit": "kg" }
-    ]
+      { "item": "yulaf", "quantity": 1, "unit": "bardak" },
+      { "item": "süt (veya badem sütü)", "quantity": 1.5, "unit": "bardak" },
+      { "item": "bal", "quantity": 1, "unit": "yemek kaşığı" },
+      { "item": "meyve", "quantity": 0.5, "unit": "bardak" },
+      { "item": "chia tohumu", "quantity": 1, "unit": "yemek kaşığı" }
+    ],
+    "preparation": "Yulaf ve sütü bir tencerede karıştırın ve orta ateşte pişirin, ara sıra karıştırarak. Balı ekleyin ve yulaflar yumuşayana kadar pişirmeye devam edin. Üzerine meyve ve chia tohumlarını ekleyerek servis yapın."
   },
   {
-    "name": "Recipe 3",
-    "category": "dinner",
+    "name": "Salatalık ve Domates Salatası",
+    "category": "kahvaltı",
     "ingredients": [
-      { "item": "item1", "quantity": 1, "unit": "gr" },
-      { "item": "item2", "quantity": 2, "unit": "tbs" },
-      { "item": "item3", "quantity": 3, "unit": "kg" }
-    ]
+      {
+        "item": "salatalık",
+        "quantity": 1,
+        "unit": "adet",
+        "preparation": "dilimlenmiş"
+      },
+      {
+        "item": "domates",
+        "quantity": 2,
+        "unit": "adet",
+        "preparation": "doğranmış"
+      },
+      {
+        "item": "kırmızı soğan",
+        "quantity": 0.25,
+        "unit": "adet",
+        "preparation": "ince dilimlenmiş"
+      },
+      { "item": "zeytinyağı", "quantity": 2, "unit": "yemek kaşığı" },
+      { "item": "limon suyu", "quantity": 1, "unit": "yemek kaşığı" },
+      { "item": "tuz", "quantity": "isteğe bağlı", "unit": "" },
+      { "item": "karabiber", "quantity": "isteğe bağlı", "unit": "" }
+    ],
+    "preparation": "Salatalık, domates ve soğanı bir kasede karıştırın. Üzerine zeytinyağı ve limon suyu gezdirin, tuz ve karabiber ile tatlandırın."
   },
   {
-    "name": "Recipe 5",
-    "category": "dinner",
+    "name": "Kısır",
+    "category": "öğle",
     "ingredients": [
-      { "item": "item1", "quantity": 1, "unit": "gr" },
-      { "item": "item2", "quantity": 2, "unit": "tbs" },
-      { "item": "item3", "quantity": 3, "unit": "kg" }
-    ]
+      { "item": "ince bulgur", "quantity": 1, "unit": "bardak" },
+      { "item": "domates salçası", "quantity": 0.5, "unit": "bardak" },
+      { "item": "zeytinyağı", "quantity": 0.25, "unit": "bardak" },
+      { "item": "doğranmış maydanoz", "quantity": 0.5, "unit": "bardak" },
+      { "item": "doğranmış nane", "quantity": 0.25, "unit": "bardak" },
+      { "item": "limon suyu", "quantity": 0.25, "unit": "bardak" },
+      { "item": "tuz", "quantity": "isteğe bağlı", "unit": "" },
+      { "item": "karabiber", "quantity": "isteğe bağlı", "unit": "" }
+    ],
+    "preparation": "Üzerine kaynar su dökerek bulguru şişirin. Domates salçası, zeytinyağı, maydanoz, nane, limon suyu, tuz ve karabiber ile karıştırın."
   },
   {
-    "name": "Recipe 4",
-    "category": "snack",
+    "name": "Mercimek Köftesi",
+    "category": "öğle",
     "ingredients": [
-      { "item": "item1", "quantity": 1, "unit": "gr" },
-      { "item": "item2", "quantity": 2, "unit": "tbs" },
-      { "item": "item3", "quantity": 3, "unit": "kg" }
-    ]
+      { "item": "kırmızı mercimek", "quantity": 1, "unit": "bardak" },
+      { "item": "ince bulgur", "quantity": 0.5, "unit": "bardak" },
+      {
+        "item": "soğan",
+        "quantity": 1,
+        "unit": "adet",
+        "preparation": "ince doğranmış"
+      },
+      { "item": "domates salçası", "quantity": 2, "unit": "yemek kaşığı" },
+      { "item": "zeytinyağı", "quantity": 2, "unit": "yemek kaşığı" },
+      { "item": "tuz", "quantity": "isteğe bağlı", "unit": "" },
+      { "item": "karabiber", "quantity": "isteğe bağlı", "unit": "" }
+    ],
+    "preparation": "Mercimekleri haşlayıp suyunu süzün. Mercimekleri ince bulgur ile karıştırın. Soğanı zeytinyağında soteleyin, ardından karışıma ekleyin. Domates salçası, tuz ve karabiber ekleyip karıştırın. Karışımdan köfteler şekillendirip servis yapın."
+  },
+  {
+    "name": "Zeytinyağlı Enginar",
+    "category": "öğle",
+    "ingredients": [
+      { "item": "enginar", "quantity": 4, "unit": "adet" },
+      { "item": "zeytinyağı", "quantity": 0.5, "unit": "bardak" },
+      { "item": "limon suyu", "quantity": 2, "unit": "yemek kaşığı" },
+      {
+        "item": "soğan",
+        "quantity": 1,
+        "unit": "adet",
+        "preparation": "ince doğranmış"
+      },
+      {
+        "item": "havuç",
+        "quantity": 2,
+        "unit": "adet",
+        "preparation": "doğranmış"
+      },
+      { "item": "tuz", "quantity": "isteğe bağlı", "unit": "" },
+      { "item": "karabiber", "quantity": "isteğe bağlı", "unit": "" }
+    ],
+    "preparation": "Enginarları temizleyin ve limonlu suda bekletin. Zeytinyağını bir tencerede ısıtın, soğanı ve havucu ekleyip soteleyin. Enginarları ekleyin ve üzerini kapatıp kısık ateşte pişirin. Tuz ve karabiber ile tatlandırın."
+  },
+  {
+    "name": "Havuç ve Humus",
+    "category": "atıştırmalık",
+    "ingredients": [
+      {
+        "item": "havuç",
+        "quantity": 2,
+        "unit": "adet",
+        "preparation": "şeritler halinde kesilmiş"
+      },
+      { "item": "humus", "quantity": 0.5, "unit": "bardak" }
+    ],
+    "preparation": "Havuç şeritlerini humus ile birlikte servis edin."
+  },
+  {
+    "name": "Yunan Yoğurdu ve Meyve",
+    "category": "atıştırmalık",
+    "ingredients": [
+      { "item": "Yunan yoğurdu", "quantity": 1, "unit": "bardak" },
+      { "item": "karışık meyve", "quantity": 0.5, "unit": "bardak" },
+      { "item": "bal", "quantity": 1, "unit": "yemek kaşığı" }
+    ],
+    "preparation": "Yoğurdu bir kaseye alın, üzerine meyve ve bal ekleyin."
+  },
+  {
+    "name": "Kavrulmuş Badem",
+    "category": "atıştırmalık",
+    "ingredients": [
+      { "item": "badem", "quantity": 0.5, "unit": "bardak" },
+      { "item": "tuz", "quantity": "isteğe bağlı", "unit": "" }
+    ],
+    "preparation": "Bademleri bir tavada hafifçe kavurun, isteğe bağlı olarak tuz ekleyin."
+  },
+  {
+    "name": "Avokado ve Tam Buğday Krakeri",
+    "category": "atıştırmalık",
+    "ingredients": [
+      {
+        "item": "avokado",
+        "quantity": 1,
+        "unit": "adet",
+        "preparation": "ezilmiş"
+      },
+      { "item": "tam buğday krakeri", "quantity": 6, "unit": "adet" },
+      { "item": "limon suyu", "quantity": 1, "unit": "çay kaşığı" },
+      { "item": "tuz", "quantity": "isteğe bağlı", "unit": "" }
+    ],
+    "preparation": "Avokadoyu ezip limon suyu ve tuz ile tatlandırın. Krakerlerin üzerine sürüp servis edin."
+  },
+  {
+    "name": "Elma Dilimleri ve Fıstık Ezmesi",
+    "category": "atıştırmalık",
+    "ingredients": [
+      {
+        "item": "elma",
+        "quantity": 1,
+        "unit": "adet",
+        "preparation": "dilimlenmiş"
+      },
+      { "item": "fıstık ezmesi", "quantity": 2, "unit": "yemek kaşığı" }
+    ],
+    "preparation": "Elma dilimlerinin üzerine fıstık ezmesi sürüp servis edin."
+  },
+  {
+    "name": "Kinoa Salatası",
+    "category": "atıştırmalık",
+    "ingredients": [
+      {
+        "item": "kinoa",
+        "quantity": 0.5,
+        "unit": "bardak",
+        "preparation": "pişirilmiş"
+      },
+      {
+        "item": "kiraz domates",
+        "quantity": 0.5,
+        "unit": "bardak",
+        "preparation": "doğranmış"
+      },
+      {
+        "item": "salatalık",
+        "quantity": 0.5,
+        "unit": "adet",
+        "preparation": "doğranmış"
+      },
+      { "item": "zeytinyağı", "quantity": 1, "unit": "yemek kaşığı" },
+      { "item": "limon suyu", "quantity": 1, "unit": "yemek kaşığı" },
+      { "item": "tuz", "quantity": "isteğe bağlı", "unit": "" },
+      { "item": "karabiber", "quantity": "isteğe bağlı", "unit": "" }
+    ],
+    "preparation": "Kinoa, kiraz domates ve salatalığı karıştırın. Zeytinyağı, limon suyu, tuz ve karabiber ile tatlandırın."
   }
 ]

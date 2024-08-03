@@ -33,28 +33,51 @@ h1 {
   color: white;
   border: none;
   cursor: pointer;
-  border-radius: 5px 5px 0 0;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 .controls button.active {
   background-color: #0056b3;
 }
 
-.recipe-display {
-  display: none;
+.controls button:hover {
+  background-color: #0056b3;
 }
 
-.recipe-display.active {
-  display: block;
+.recipe {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.recipe-display h2 {
+.recipe:hover {
+  background-color: #f0f0f0;
+}
+
+.recipe h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
   color: #333;
 }
 
-.recipe-display p,
-.recipe-display ul {
+.recipe p,
+.recipe ul,
+.recipe .preparation {
+  margin: 5px 0;
   color: #555;
+}
+
+.recipe .details {
+  display: none;
+}
+
+.recipe.active .details {
+  display: block;
 }
 
 @media (max-width: 600px) {

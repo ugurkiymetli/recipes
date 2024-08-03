@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
         button.textContent = category;
         button.dataset.category = category;
         button.classList.add('tab-button');
-        if (category === 'breakfast') {
+        if (category === 'kahvaltı') {
           button.classList.add('active');
         }
         controlsDiv.appendChild(button);
@@ -31,8 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       });
 
-      // Set default category as 'breakfast'
-      displayRecipes('breakfast');
+      // Set default category as 'kahvaltı'
+      displayRecipes('kahvaltı');
 
       // Function to display recipes
       function displayRecipes(category) {
@@ -44,21 +44,33 @@ document.addEventListener('DOMContentLoaded', () => {
             (recipe) => `
             <div class="recipe">
               <h2>${recipe.name}</h2>
-              <p class="category">Category: ${recipe.category}</p>
-              <ul class="ingredients">
-                ${recipe.ingredients
-                  .map(
-                    (ingredient) => `
-                  <li>${ingredient.item}: ${ingredient.quantity} ${ingredient.unit}</li>
-                `
-                  )
-                  .join('')}
-              </ul>
+              <div class="details">
+                <p class="category">Kategori: ${recipe.category}</p>
+                <ul class="ingredients">
+                  ${recipe.ingredients
+                    .map(
+                      (ingredient) => `
+                    <li>${ingredient.item}: ${ingredient.quantity} ${ingredient.unit}</li>
+                  `
+                    )
+                    .join('')}
+                </ul>
+                <div class="preparation">
+                  <h3>Hazırlanışı:</h3>
+                  <p>${recipe.preparation}</p>
+                </div>
+              </div>
             </div>
           `
           )
           .join('');
-        recipeDisplayDiv.classList.add('active');
+
+        // Add event listeners to toggle recipe details
+        document.querySelectorAll('.recipe').forEach((recipeDiv) => {
+          recipeDiv.addEventListener('click', () => {
+            recipeDiv.classList.toggle('active');
+          });
+        });
       }
     })
     .catch((error) => console.error('Error fetching recipes:', error));
