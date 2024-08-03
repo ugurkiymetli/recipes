@@ -1,88 +1,36 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
+.accordion-button.category-breakfast {
+  color: #1abc9c;
+}
+.accordion-button.category-lunch {
+  color: #3498db;
+}
+.accordion-button.category-dinner {
+  color: #9b59b6;
+}
+.accordion-button.category-snack {
+  color: #e74c3c;
+}
+.accordion-button.category-default {
+  color: #1c1b1b;
 }
 
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.category-breakfast {
+  color: #1abc9c !important;
+}
+.category-lunch {
+  color: #3498db !important;
+}
+.category-dinner {
+  color: #9b59b6 !important;
+}
+.category-snack {
+  color: #e74c3c !important;
+}
+.category-default {
+  color: #1c1b1b;
 }
 
-h1 {
-  text-align: center;
-  color: #333;
-}
-
-.controls {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
-}
-
-.controls button {
-  padding: 10px 20px;
-  margin: 5px;
-  font-size: 16px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-.controls button.active {
-  background-color: #0056b3;
-}
-
-.controls button:hover {
-  background-color: #0056b3;
-}
-
-.recipe {
-  margin: 10px 0;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.recipe:hover {
-  background-color: #f0f0f0;
-}
-
-.recipe h2 {
-  margin: 0;
-  padding: 0;
-  font-size: 18px;
-  color: #333;
-}
-
-.recipe p,
-.recipe ul,
-.recipe .preparation {
-  margin: 5px 0;
-  color: #555;
-}
-
-.recipe .details {
-  display: none;
-}
-
-.recipe.active .details {
-  display: block;
-}
-
-@media (max-width: 600px) {
-  .controls button {
-    font-size: 14px;
-    padding: 8px 16px;
-  }
+.accordion-button:not(.collapsed) {
+  background-color: unset !important;
+  color: inherit;
 }

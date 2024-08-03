@@ -1,7 +1,7 @@
 [
   {
     "name": "Menemen",
-    "category": "kahvaltı",
+    "category": "breakfast",
     "ingredients": [
       {
         "item": "domates",
@@ -30,7 +30,7 @@
   },
   {
     "name": "Yulaf Ezmesi (Oatmeal)",
-    "category": "kahvaltı",
+    "category": "breakfast",
     "ingredients": [
       { "item": "yulaf", "quantity": 1, "unit": "bardak" },
       { "item": "süt (veya badem sütü)", "quantity": 1.5, "unit": "bardak" },
@@ -42,7 +42,7 @@
   },
   {
     "name": "Salatalık ve Domates Salatası",
-    "category": "kahvaltı",
+    "category": "breakfast",
     "ingredients": [
       {
         "item": "salatalık",
@@ -71,7 +71,7 @@
   },
   {
     "name": "Kısır",
-    "category": "öğle",
+    "category": "lunch",
     "ingredients": [
       { "item": "ince bulgur", "quantity": 1, "unit": "bardak" },
       { "item": "domates salçası", "quantity": 0.5, "unit": "bardak" },
@@ -86,7 +86,7 @@
   },
   {
     "name": "Mercimek Köftesi",
-    "category": "öğle",
+    "category": "lunch",
     "ingredients": [
       { "item": "kırmızı mercimek", "quantity": 1, "unit": "bardak" },
       { "item": "ince bulgur", "quantity": 0.5, "unit": "bardak" },
@@ -105,7 +105,7 @@
   },
   {
     "name": "Zeytinyağlı Enginar",
-    "category": "öğle",
+    "category": "lunch",
     "ingredients": [
       { "item": "enginar", "quantity": 4, "unit": "adet" },
       { "item": "zeytinyağı", "quantity": 0.5, "unit": "bardak" },
@@ -129,7 +129,7 @@
   },
   {
     "name": "Havuç ve Humus",
-    "category": "atıştırmalık",
+    "category": "snack",
     "ingredients": [
       {
         "item": "havuç",
@@ -143,7 +143,7 @@
   },
   {
     "name": "Yunan Yoğurdu ve Meyve",
-    "category": "atıştırmalık",
+    "category": "snack",
     "ingredients": [
       { "item": "Yunan yoğurdu", "quantity": 1, "unit": "bardak" },
       { "item": "karışık meyve", "quantity": 0.5, "unit": "bardak" },
@@ -153,7 +153,7 @@
   },
   {
     "name": "Kavrulmuş Badem",
-    "category": "atıştırmalık",
+    "category": "snack",
     "ingredients": [
       { "item": "badem", "quantity": 0.5, "unit": "bardak" },
       { "item": "tuz", "quantity": "isteğe bağlı", "unit": "" }
@@ -162,7 +162,7 @@
   },
   {
     "name": "Avokado ve Tam Buğday Krakeri",
-    "category": "atıştırmalık",
+    "category": "snack",
     "ingredients": [
       {
         "item": "avokado",
@@ -178,7 +178,7 @@
   },
   {
     "name": "Elma Dilimleri ve Fıstık Ezmesi",
-    "category": "atıştırmalık",
+    "category": "snack",
     "ingredients": [
       {
         "item": "elma",
@@ -192,7 +192,7 @@
   },
   {
     "name": "Kinoa Salatası",
-    "category": "atıştırmalık",
+    "category": "snack",
     "ingredients": [
       {
         "item": "kinoa",
