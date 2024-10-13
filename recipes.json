@@ -480,5 +480,321 @@
       }
     ],
     "preparation": "Haşlanmış tavuğu, kavrulmuş tel şehriye ve sebzeleri karıştırarak salata olarak servis edin."
+  },
+  {
+    "name": "Kahvaltı Seçenek 2 - Sıcak Kahvaltı Tabağı",
+    "category": "breakfast",
+    "ingredients": [
+      { "item": "tam buğday ekmeği", "quantity": 1, "unit": "ince dilim" },
+      {
+        "item": "mantar",
+        "quantity": "serbest",
+        "unit": "",
+        "preparation": "sote"
+      },
+      {
+        "item": "peynir",
+        "quantity": 2,
+        "unit": "ince dilim",
+        "preparation": "tavada kızartılmış"
+      },
+      {
+        "item": "yumurta",
+        "quantity": 1,
+        "unit": "adet",
+        "preparation": "az yağda çırpılmış"
+      },
+      { "item": "zeytinyağı", "quantity": 1, "unit": "tatlı kaşığı" },
+      {
+        "item": "biber",
+        "quantity": "serbest",
+        "unit": "",
+        "preparation": "közlenmiş"
+      },
+      {
+        "item": "domates",
+        "quantity": "serbest",
+        "unit": "",
+        "preparation": "közlenmiş"
+      },
+      { "item": "yeşillik", "quantity": "serbest", "unit": "" },
+      {
+        "item": "meyve",
+        "quantity": 1,
+        "unit": "porsiyon",
+        "preparation": "taze"
+      }
+    ],
+    "preparation": "Ekmek üzerine sotelenmiş mantar, kızartılmış peynir ve çırpılmış yumurtayı koyun. Yanında közlenmiş biber, domates ve bol yeşillik ile servis edin."
+  },
+  {
+    "name": "Kahvaltı Seçenek 3 - Kahvaltı Salatası",
+    "category": "breakfast",
+    "ingredients": [
+      { "item": "lor peyniri", "quantity": 4, "unit": "yemek kaşığı" },
+      {
+        "item": "yumurta",
+        "quantity": 1,
+        "unit": "adet",
+        "preparation": "haşlanmış"
+      },
+      { "item": "zeytinyağı", "quantity": 1, "unit": "tatlı kaşığı" },
+      {
+        "item": "domates",
+        "quantity": "serbest",
+        "unit": "",
+        "preparation": "doğranmış"
+      },
+      {
+        "item": "salatalık",
+        "quantity": "serbest",
+        "unit": "",
+        "preparation": "doğranmış"
+      },
+      { "item": "kırmızı/yeşil biber", "quantity": "serbest", "unit": "" },
+      { "item": "maydanoz", "quantity": "serbest", "unit": "" },
+      { "item": "çörek otu", "quantity": 1, "unit": "tatlı kaşığı" },
+      { "item": "etimek", "quantity": 2, "unit": "adet" }
+    ],
+    "preparation": "Tüm malzemeleri karıştırarak kahvaltı salatası yapın. Yanında etimek ile tüketin."
+  },
+  {
+    "name": "Kahvaltı Seçenek 4 - Rulo Omlet",
+    "category": "breakfast",
+    "ingredients": [
+      { "item": "yumurta", "quantity": 2, "unit": "adet" },
+      { "item": "kaşar/dil peyniri", "quantity": 2, "unit": "ince dilim" },
+      { "item": "zeytinyağı", "quantity": 1, "unit": "tatlı kaşığı" },
+      { "item": "tuz", "quantity": 1, "unit": "çay kaşığı" },
+      { "item": "karabiber", "quantity": 1, "unit": "çay kaşığı" },
+      { "item": "dereotu", "quantity": "isteğe bağlı", "unit": "" },
+      { "item": "maydanoz", "quantity": "isteğe bağlı", "unit": "" },
+      { "item": "taze soğan", "quantity": "isteğe bağlı", "unit": "" },
+      {
+        "item": "domates",
+        "quantity": "serbest",
+        "unit": "",
+        "preparation": "doğranmış"
+      }
+    ],
+    "preparation": "Yumurtaları baharatlarla çırpın, tavada pişirin. Diğer tarafı pişerken peyniri ekleyip eritin. Yeşillikler ve domatesle sarıp dilimleyerek servis edin."
+  },
+  {
+    "name": "Öğle Yemeği Seçenek 2 - Kabak Pizza",
+    "category": "lunch",
+    "ingredients": [
+      {
+        "item": "kabak",
+        "quantity": 2,
+        "unit": "orta boy",
+        "preparation": "rendelenmiş ve suyu sıkılmış"
+      },
+      { "item": "yumurta", "quantity": 1, "unit": "adet" },
+      { "item": "kaşar peyniri", "quantity": 0.5, "unit": "çay bardağı" },
+      {
+        "item": "tam buğday unu",
+        "quantity": 2,
+        "unit": "tepeleme yemek kaşığı"
+      },
+      { "item": "tuz", "quantity": "isteğe bağlı", "unit": "" },
+      { "item": "karabiber", "quantity": "isteğe bağlı", "unit": "" },
+      {
+        "item": "domates salçası",
+        "quantity": "isteğe bağlı",
+        "unit": "",
+        "preparation": "kekik ve su ile sos"
+      },
+      {
+        "item": "sebzeler",
+        "quantity": "serbest",
+        "unit": "",
+        "preparation": "isteğe bağlı"
+      }
+    ],
+    "preparation": "Kabakları kaşar peyniri, un ve yumurta ile karıştırarak pizza tabanı oluşturun. Fırında pişirin, ardından üzerine domates sosu ve sebzeleri ekleyip yeniden pişirin."
+  },
+  {
+    "name": "Akşam Yemeği Seçenek 4 - Yalancı Mantı",
+    "category": "dinner",
+    "ingredients": [
+      {
+        "item": "karnabahar",
+        "quantity": 0.5,
+        "unit": "orta boy",
+        "preparation": "haşlanmış"
+      },
+      { "item": "dana kıyma", "quantity": 4, "unit": "yemek kaşığı" },
+      {
+        "item": "domates",
+        "quantity": 0.5,
+        "unit": "adet",
+        "preparation": "doğranmış"
+      },
+      { "item": "salça", "quantity": 1, "unit": "tatlı kaşığı" },
+      { "item": "zeytinyağı", "quantity": 1, "unit": "tatlı kaşığı" },
+      { "item": "kekik", "quantity": "isteğe bağlı", "unit": "" },
+      { "item": "yoğurt", "quantity": 2, "unit": "yemek kaşığı" },
+      { "item": "tuz", "quantity": "isteğe bağlı", "unit": "" }
+    ],
+    "preparation": "Karnabaharı haşlayın. Kıymayı domates, salça, zeytinyağı ve kekik ile soteleyin. Üzerine yoğurt ve kıyma karışımını dökerek servis edin."
+  },
+  {
+    "name": "Akşam Yemeği Seçenek 5 - Fırın Şakşuka",
+    "category": "dinner",
+    "ingredients": [
+      {
+        "item": "kabak",
+        "quantity": 2,
+        "unit": "orta boy",
+        "preparation": "küp doğranmış"
+      },
+      {
+        "item": "patlıcan",
+        "quantity": 2,
+        "unit": "adet",
+        "preparation": "küp doğranmış"
+      },
+      {
+        "item": "patates",
+        "quantity": 2,
+        "unit": "orta boy",
+        "preparation": "küp doğranmış"
+      },
+      {
+        "item": "kapya biber",
+        "quantity": 2,
+        "unit": "adet",
+        "preparation": "doğranmış"
+      },
+      {
+        "item": "çarliston biber",
+        "quantity": 3,
+        "unit": "adet",
+        "preparation": "doğranmış"
+      },
+      {
+        "item": "domates",
+        "quantity": 3,
+        "unit": "orta boy",
+        "preparation": "rendelenmiş"
+      },
+      { "item": "zeytinyağı", "quantity": 3, "unit": "yemek kaşığı" },
+      {
+        "item": "sarımsak",
+        "quantity": 3,
+        "unit": "diş",
+        "preparation": "rendelenmiş"
+      },
+      { "item": "tuz", "quantity": "isteğe bağlı", "unit": "" }
+    ],
+    "preparation": "Kabak, patlıcan, patates ve biberleri zeytinyağı ve tuzla harmanlayıp fırında pişirin. Domates sosu ve sarımsak ile pişen sebzelerin üzerine gezdirin ve 5 dakika daha fırında pişirin."
+  },
+  {
+    "name": "Ara - Taze/Kuru Meyve ve Yoğurt",
+    "category": "snack",
+    "ingredients": [
+      { "item": "taze/kuru meyve", "quantity": 1, "unit": "porsiyon" },
+      { "item": "badem/fındık/fıstık", "quantity": 10, "unit": "12 adet" },
+      { "item": "yoğurt", "quantity": 4, "unit": "yemek kaşığı" }
+    ],
+    "preparation": "Meyve, yoğurt ve badem/fındık/fıstık ile ara öğününüzü oluşturun."
+  },
+  {
+    "name": "Ara - Etimek Üzeri Labne ve Lor Karışımı",
+    "category": "snack",
+    "ingredients": [
+      { "item": "etimek", "quantity": 2, "unit": "adet" },
+      { "item": "labne", "quantity": 1, "unit": "yemek kaşığı" },
+      { "item": "lor", "quantity": 1, "unit": "yemek kaşığı" },
+      { "item": "baharatlar", "quantity": "isteğe bağlı", "unit": "" },
+      {
+        "item": "salatalık",
+        "quantity": "serbest",
+        "unit": "",
+        "preparation": "dilimlenmiş"
+      },
+      { "item": "kefir", "quantity": 1, "unit": "su bardağı" }
+    ],
+    "preparation": "Labne, lor ve baharatları karıştırıp etimeklerin üzerine sürün. Üzerine salatalık dilimleri koyarak kefir ile servis edin."
+  },
+  {
+    "name": "Ara - Bağırsak Dostu Smoothie",
+    "category": "snack",
+    "ingredients": [
+      { "item": "laktozsuz süt", "quantity": 1, "unit": "su bardağı" },
+      { "item": "kuru kayısı", "quantity": 2, "unit": "adet" },
+      { "item": "tarçın", "quantity": 1, "unit": "çay kaşığı" },
+      { "item": "kakao", "quantity": 1, "unit": "tatlı kaşığı" }
+    ],
+    "preparation": "Tüm malzemeleri blenderda karıştırarak smoothie hazırlayın."
+  },
+  {
+    "name": "Ara - Taze/Kuru Meyve ve Yoğurt",
+    "category": "snack",
+    "ingredients": [
+      { "item": "taze/kuru meyve", "quantity": 1, "unit": "porsiyon" },
+      { "item": "badem/fındık/fıstık", "quantity": 10, "unit": "12 adet" },
+      { "item": "yoğurt", "quantity": 4, "unit": "yemek kaşığı" }
+    ],
+    "preparation": "Meyve, yoğurt ve badem/fındık/fıstık ile ara öğününüzü oluşturun."
+  },
+  {
+    "name": "Ara - Etimek Üzeri Labne ve Lor Karışımı",
+    "category": "snack",
+    "ingredients": [
+      { "item": "etimek", "quantity": 2, "unit": "adet" },
+      { "item": "labne", "quantity": 1, "unit": "yemek kaşığı" },
+      { "item": "lor", "quantity": 1, "unit": "yemek kaşığı" },
+      { "item": "baharatlar", "quantity": "isteğe bağlı", "unit": "" },
+      {
+        "item": "salatalık",
+        "quantity": "serbest",
+        "unit": "",
+        "preparation": "dilimlenmiş"
+      },
+      { "item": "kefir", "quantity": 1, "unit": "su bardağı" }
+    ],
+    "preparation": "Labne, lor ve baharatları karıştırıp etimeklerin üzerine sürün. Üzerine salatalık dilimleri koyarak kefir ile servis edin."
+  },
+  {
+    "name": "Ara - Bağırsak Dostu Smoothie",
+    "category": "snack",
+    "ingredients": [
+      { "item": "laktozsuz süt", "quantity": 1, "unit": "su bardağı" },
+      { "item": "kuru kayısı", "quantity": 2, "unit": "adet" },
+      { "item": "tarçın", "quantity": 1, "unit": "çay kaşığı" },
+      { "item": "kakao", "quantity": 1, "unit": "tatlı kaşığı" }
+    ],
+    "preparation": "Tüm malzemeleri blenderda karıştırarak smoothie hazırlayın."
+  },
+  {
+    "name": "Ara - Buğday/Pirinç Patlağı ve Fıstık Ezmesi",
+    "category": "snack",
+    "ingredients": [
+      { "item": "buğday/pirinç patlağı", "quantity": 2, "unit": "adet" },
+      {
+        "item": "fıstık ezmesi",
+        "quantity": 1,
+        "unit": "tatlı kaşığı",
+        "preparation": "şekersiz"
+      },
+      { "item": "meyve", "quantity": 0.5, "unit": "porsiyon" },
+      {
+        "item": "Hindistan cevizi/kakao",
+        "quantity": "isteğe bağlı",
+        "unit": ""
+      }
+    ],
+    "preparation": "Buğday veya pirinç patlaklarının üzerine fıstık ezmesi ve meyve koyun. Hindistan cevizi veya kakao serpebilirsiniz."
+  },
+  {
+    "name": "Ara - Tahin Pekmezli Muffin",
+    "category": "snack",
+    "ingredients": [
+      { "item": "tahin", "quantity": 1, "unit": "yemek kaşığı" },
+      { "item": "pekmez", "quantity": 1, "unit": "yemek kaşığı" },
+      { "item": "muffin", "quantity": 1, "unit": "adet" }
+    ],
+    "preparation": "Tahin ve pekmezi karıştırarak muffin ile birlikte tüketin."
   }
 ]
