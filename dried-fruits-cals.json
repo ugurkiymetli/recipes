@@ -1,0 +1,32 @@
+[
+  {
+    "item": "Kuru incir",
+    "average_measure": "1 küçük boy",
+    "quantity": 20
+  },
+  {
+    "item": "Kuru üzüm",
+    "average_measure": "1 yemek kaşığı",
+    "quantity": 20
+  },
+  {
+    "item": "Kuru dut",
+    "average_measure": "1 yemek kaşığı",
+    "quantity": 20
+  },
+  {
+    "item": "Kuru erik",
+    "average_measure": "4 orta boy",
+    "quantity": 20
+  },
+  {
+    "item": "Kuru kayısı",
+    "average_measure": "4 orta boy",
+    "quantity": 20
+  },
+  {
+    "item": "Kuru hurma",
+    "average_measure": "2-3 adet",
+    "quantity": 20
+  }
+]

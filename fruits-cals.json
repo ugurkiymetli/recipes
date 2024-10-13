@@ -1,0 +1,187 @@
+[
+  {
+    "item": "Ahududu",
+    "average_measure": "1 çay bardağı",
+    "quantity": 100
+  },
+  {
+    "item": "Ananas",
+    "average_measure": "1 dilim",
+    "quantity": 110
+  },
+  {
+    "item": "Armut",
+    "average_measure": "1 küçük boy",
+    "quantity": 100
+  },
+  {
+    "item": "Ayva",
+    "average_measure": "1/3 orta boy",
+    "quantity": 100
+  },
+  {
+    "item": "Babutsa (Kaktüs meyvesi)",
+    "average_measure": "2 orta boy",
+    "quantity": 160
+  },
+  {
+    "item": "Böğürtlen",
+    "average_measure": "1 çay bardağı",
+    "quantity": 115
+  },
+  {
+    "item": "Cennet elması",
+    "average_measure": "½ adet",
+    "quantity": 80
+  },
+  {
+    "item": "Çağla-badem",
+    "average_measure": "10 adet",
+    "quantity": 100
+  },
+  {
+    "item": "Çilek",
+    "average_measure": "10-12 adet",
+    "quantity": 180
+  },
+  {
+    "item": "Dut",
+    "average_measure": "10 büyük boy",
+    "quantity": 75
+  },
+  {
+    "item": "Elma",
+    "average_measure": "1 küçük boy",
+    "quantity": 100
+  },
+  {
+    "item": "Greyfurt",
+    "average_measure": "½ orta boy",
+    "quantity": 150
+  },
+  {
+    "item": "Hünnap",
+    "average_measure": "5 adet",
+    "quantity": 75
+  },
+  {
+    "item": "İncir",
+    "average_measure": "2 küçük boy",
+    "quantity": 75
+  },
+  {
+    "item": "Karpuz",
+    "average_measure": "1/10 küçük boy",
+    "quantity": 250
+  },
+  {
+    "item": "Kavun",
+    "average_measure": "1/10 küçük boy",
+    "quantity": 200
+  },
+  {
+    "item": "Kayısı",
+    "average_measure": "4 orta boy",
+    "quantity": 120
+  },
+  {
+    "item": "Kırmızı erik",
+    "average_measure": "5 orta boy",
+    "quantity": 85
+  },
+  {
+    "item": "Kızılcık",
+    "average_measure": "1 su bardağı",
+    "quantity": 100
+  },
+  {
+    "item": "Kiraz",
+    "average_measure": "12-15 adet",
+    "quantity": 85
+  },
+  {
+    "item": "Kivi",
+    "average_measure": "1 orta boy",
+    "quantity": 150
+  },
+  {
+    "item": "Limon",
+    "average_measure": "2 küçük boy",
+    "quantity": 180
+  },
+  {
+    "item": "Mandalina",
+    "average_measure": "2 küçük boy",
+    "quantity": 150
+  },
+  {
+    "item": "Mango",
+    "average_measure": "1/3 büyük boy",
+    "quantity": 120
+  },
+  {
+    "item": "Muşmula",
+    "average_measure": "5-6 adet",
+    "quantity": 100
+  },
+  {
+    "item": "Muz (ithal)",
+    "average_measure": "½ orta boy",
+    "quantity": 75
+  },
+  {
+    "item": "Muz (yerli)",
+    "average_measure": "1 adet",
+    "quantity": 75
+  },
+  {
+    "item": "Mürdüm eriği",
+    "average_measure": "2-3 orta boy",
+    "quantity": 80
+  },
+  {
+    "item": "Nar",
+    "average_measure": "½ küçük boy",
+    "quantity": 100
+  },
+  {
+    "item": "Nektarin",
+    "average_measure": "2 küçük boy",
+    "quantity": 150
+  },
+  {
+    "item": "Portakal",
+    "average_measure": "1 orta boy",
+    "quantity": 130
+  },
+  {
+    "item": "Şeftali",
+    "average_measure": "1 orta boy",
+    "quantity": 150
+  },
+  {
+    "item": "Üzüm",
+    "average_measure": "1 küçük salkım",
+    "quantity": 90
+  },
+  {
+    "item": "Vişne",
+    "average_measure": "15-20 adet",
+    "quantity": 100
+  },
+  {
+    "item": "Yaban mersini",
+    "average_measure": "1 avuç",
+    "quantity": 110
+  },
+  {
+    "item": "Yeni dünya",
+    "average_measure": "6 adet",
+    "quantity": 80
+  },
+  {
+    "item": "Yeşil erik",
+    "average_measure": "10 adet",
+    "quantity": 100
+  }
+]

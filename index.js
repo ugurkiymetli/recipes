@@ -1,21 +1,21 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const controlsDiv = document.getElementById('controls');
-  const recipeDisplayDiv = document.getElementById('recipes');
+document.addEventListener("DOMContentLoaded", () => {
+  const controlsDiv = document.getElementById("controls");
+  const recipeDisplayDiv = document.getElementById("recipes");
   let allRecipes = []; // Define allRecipes here
 
   // Function to get the category class
   function getCategoryClass(category) {
     switch (category.toLowerCase()) {
-      case 'breakfast':
-        return 'category-breakfast';
-      case 'lunch':
-        return 'category-lunch';
-      case 'dinner':
-        return 'category-dinner';
-      case 'snack':
-        return 'category-snack';
+      case "breakfast":
+        return "category-breakfast";
+      case "lunch":
+        return "category-lunch";
+      case "dinner":
+        return "category-dinner";
+      case "snack":
+        return "category-snack";
       default:
-        return 'category-default';
+        return "category-default";
     }
   }
 
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const selectedCategories = Array.from(
       document.querySelectorAll('#controls input[type="checkbox"]:checked')
     ).map((checkbox) =>
-      checkbox.nextElementSibling.getAttribute('data-category')
+      checkbox.nextElementSibling.getAttribute("data-category")
     );
 
     const filteredRecipes = allRecipes.filter(
@@ -85,11 +85,11 @@ document.addEventListener('DOMContentLoaded', () => {
                                                 } ${ingredient.unit}${
                                                   ingredient.preparation
                                                     ? ` (${ingredient.preparation})`
-                                                    : ''
+                                                    : ""
                                                 }</li>
                                                 `
                                               )
-                                              .join('')}
+                                              .join("")}
                                         </ul>
                                     </div>
                                     <div class="mt-4">
@@ -105,22 +105,81 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `;
         })
-        .join('');
+        .join("");
     }
   }
 
   document
     .querySelectorAll('#controls input[type="checkbox"]')
     .forEach((checkbox) => {
-      checkbox.addEventListener('change', filterRecipes);
+      checkbox.addEventListener("change", filterRecipes);
     });
 
   // Fetch recipes from JSON file
-  fetch('recipes.json')
+  fetch("recipes.json")
     .then((response) => response.json())
     .then((recipes) => {
       allRecipes = recipes; // Populate allRecipes here
       displayRecipes(allRecipes); // Display recipes initially
     })
-    .catch((error) => console.error('Error fetching recipes:', error));
+    .catch((error) => console.error("Error fetching recipes:", error));
+
+  // Info button functionality
+  const infoButton = document.getElementById("info-button");
+  infoButton.addEventListener("click", () => {
+    Promise.all([
+      fetch("fruits-cals.json"), // Fetch the fruits data
+      fetch("dried-fruits-cals.json"), // Fetch the dried fruits data
+    ])
+      .then(async ([fruitsResponse, driedFruitsResponse]) => {
+        const fruitsData = await fruitsResponse.json();
+        const driedFruitsData = await driedFruitsResponse.json();
+
+        // Create the table HTML
+        const tableHTML = `
+        
+          <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Ortalama Ölçü</th>
+                <th>Miktar (g)</th>
+              </tr>
+            </thead>
+            <tbody>
+            <p class="text-center fs-5 text-primary">1 PORSİYON MEYVE YERİNE GEÇENLER</p>
+              ${fruitsData
+                .map(
+                  (item) => `
+                <tr>
+                  <td>${item.item}</td>
+                  <td>${item.average_measure}</td>
+                  <td>${item.quantity !== null ? item.quantity : "N/A"}</td>
+                </tr>
+              `
+                )
+                .join("")}
+              <tr>
+                <td colspan="3" class="text-center"><strong>KURU MEYVELER</strong></td>
+              </tr>
+              ${driedFruitsData
+                .map(
+                  (item) => `
+                <tr>
+                  <td>${item.item}</td>
+                  <td>${item.average_measure}</td>
+                  <td>${item.quantity !== null ? item.quantity : "N/A"}</td>
+                </tr>
+              `
+                )
+                .join("")}
+            </tbody>
+          </table>
+        `;
+        recipeDisplayDiv.innerHTML = tableHTML; // Update the recipes div with the table
+      })
+      .catch((error) =>
+        console.error("Error fetching fruits or dried fruits data:", error)
+      );
+  });
 });
